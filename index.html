@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="sidebar-content">
+                <h2>Sections</h2>
+                <ul id="menu">
+                    <li><a href="#section1" class="menu-item" data-md="article/01-section.md">I</a></li>
+                    <li><a href="#section2" class="menu-item" data-md="article/02-section.md">II</a></li>
+                    <li><a href="#section3" class="menu-item" data-md="article/03-section.md">III</a></li>
+                    <li><a href="#section4" class="menu-item" data-md="article/04-section.md">IV</a></li>
+                    <li><a href="#section5" class="menu-item" data-md="article/05-section.md">V</a></li>
+                    <li><a href="#section6" class="menu-item" data-md="article/06-section.md">VI</a></li>
+                    <li><a href="#section7" class="menu-item" data-md="article/06-section.md">VII</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="content">
+            <div>
+
+                <h1>
+                    The American Economic Review
+                </h1>
+
+                <p>
+                VOLUME XXXV SEPTEMBER, 1945 NUMBER FOUR
+                </p>
+
+                <h1>
+                The Use Of Knowledge In Society
+                </h1>
+
+                <p>
+                F. A. HAYEK
+                </p>
+
+            </div>
+            <div id="content-wrapper">
+                <!-- All sections will be loaded here -->
+                <section id="section1" class="doc-section"></section>
+                <section id="section2" class="doc-section"></section>
+                <section id="section3" class="doc-section"></section>
+                <section id="section4" class="doc-section"></section>
+                <section id="section5" class="doc-section"></section>
+                <section id="section6" class="doc-section"></section>
+                <section id="section7" class="doc-section"></section>
+            </div>
+        </main>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
